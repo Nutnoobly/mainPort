@@ -134,7 +134,7 @@ cursor: pointer;
 }
 
 .about-me{
-    margin-top: 15%;
+    margin-top: 200px;
     color: white;
     margin-bottom: 5%;
 }
@@ -183,7 +183,6 @@ cursor: pointer;
 }
 
 .aboutme{
-    margin-top: 10%;
     color: white;
 }
 
@@ -206,18 +205,22 @@ cursor: pointer;
 }
 
 .myHobby{
-    margin-top: 5%;
+    margin-top: 70px;
     color: white;
 }
 
-.hobbyIm{
+.hobbyImm{
     width: 30%;
-    height: 30%;
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height:30%;
+    border-radius: 5px;
+    margin: 3%;
+}
+
+.hobbyIm{
+    width: auto;
+    height: 300px;
     margin: 3%;
     border-radius: 5px;
-    border: solid white 3px;
 }
 
 #navigation{
@@ -335,4 +338,8 @@ cursor: pointer;
 
 .cirtification{
     
+}
+
+.hobbyRelate{
+    margin-top: 50px;
 }
