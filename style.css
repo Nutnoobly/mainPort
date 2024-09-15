@@ -1,0 +1,338 @@
+/* F7E7DC FFF8F3 #758694*/
+.portfolio{
+    font-size: 500%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 5vw;
+}
+
+.head{
+    background-color: #405D72;
+    color: white;
+}
+
+.Hello{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 4vw;
+}
+
+.paragraph{
+    color: wheat;
+}
+
+.bracket{
+    color: lightgoldenrodyellow;
+}
+
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+body {
+    background: #001933;
+}
+.containers {
+    width: 75px;
+    height: 275px;
+    animation: bulb-swing 3s infinite ease-in-out;
+    transform-origin: top center;
+    position: absolute;
+    top: 0;
+    left: calc(50% - (75px/2));
+    z-index: -1;
+}
+.containers.paused {
+    animation-play-state: paused;
+}
+.bulb {
+    z-index: 10;
+    display: block;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    position: absolute;
+    top: 200px;
+    left: calc(50% - (75px/2));
+    background: #FFD700;
+    box-shadow: 5px 5px 80px rgba(255,215,0,1),
+    5px -5px 80px rgba(255,215,0,1),
+    -5px 5px 80px rgba(255,215,0,1),
+    -5px -5px 80px rgba(255,215,0,1);
+cursor: pointer;
+&::before {
+    content: "";
+    position: absolute; 
+    width: 35px;
+    height: 50px;
+    background: black;
+    bottom: 100%;
+    left: calc(50% - (35px/2));
+    z-index: -1;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+&::after {
+    content: "";
+    position: absolute; 
+    width: 10px;
+    height: 250px;
+    background: black;
+    bottom: 100%;
+    left: calc(50% - 5px);
+    z-index: -1;
+}
+.filaments {
+    display: block;
+    position: absolute; 
+    width: 2px;
+    height: 30px;
+    background: black;
+    top: 2px;
+    left: 28px; 
+    box-shadow: 17px 0 black;
+    opacity: 0;
+    &::after {
+    content: "";
+    position: absolute; 
+    bottom: -2px;
+    left: 4px;
+    background: black;
+    width: 2px; 
+    height: 12px;
+    display: block;
+    box-shadow: 4.5px 0 black, 9px 0 black;
+    }
+}
+}
+
+.bulb.off {
+    background: transparent; 
+    box-shadow: none;
+    border: 1px solid black;
+}
+.filaments.off {
+    opacity: 1;
+}
+
+@keyframes bulb-swing {
+    0%{transform: rotate(-10deg)}
+    50%{transform: rotate(10deg)}
+    100%{transform: rotate(-10deg)}
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("src/1722267989835.jpg");
+    /* Set a specific height */
+    min-height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 50%;
+}
+
+.about-me{
+    margin-top: 15%;
+    color: white;
+    margin-bottom: 5%;
+}
+
+#open_nav {
+    background-color: #405D72;
+    color: white;
+    border: none;
+    font-size: 35px;
+    padding: 10px 50px;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.5s;
+    display: inline-block;
+}
+
+#open_nav span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+#open_nav span:after {
+    content: '\25be';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+    color: white;
+}
+
+#open_nav:hover span {
+    padding-right: 25px;
+}
+
+#open_nav:hover span:after {
+    opacity: 1;
+}
+
+.navigation{
+    margin-top: 1%;
+    margin-bottom: auto;
+    margin-right: 3vw;
+}
+
+.aboutme{
+    margin-top: 10%;
+    color: white;
+}
+
+.titleText{
+    font-size: 400%;
+    color: white;
+}
+
+.about-me-text{
+    color: white;
+    font-size: 170%;
+}
+
+.myPicture{
+    width: 300%;
+    height: 300%;
+    border: solid white 3px;
+    margin-left: 10%;
+    border-radius:  50%;
+}
+
+.myHobby{
+    margin-top: 5%;
+    color: white;
+}
+
+.hobbyIm{
+    width: 30%;
+    height: 30%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 3%;
+    border-radius: 5px;
+    border: solid white 3px;
+}
+
+#navigation{
+    width: 100%;
+    height: auto;
+    margin-top: 1%;
+    background-color: #405D72;
+    display: none;
+    border-radius: 5px;
+}
+
+.myNav{
+    margin-left: 20%;
+    font-size: 200%;
+    color: white;
+}
+
+.interpreter {
+    font-size: 200%;
+    color: white;
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+    height: 70%;
+    width: 70%;
+    position: relative;
+    margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+.mySlides:first-child {
+    display: block;
+}
+
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 5s;
+}
+
+@keyframes fade {
+    from {opacity: .2}
+    to {opacity: 1}
+}
+
+.interpreters{
+    font-size: 170%;
+    color: white;
+    margin-top: 5%;
+}
+
+.cirtificationTitle{
+    margin-top: 5%;
+}
+
+.cirtification{
+    
+}
