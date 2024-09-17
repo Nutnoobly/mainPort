@@ -345,11 +345,19 @@ cursor: pointer;
     height: 25%;
     border-radius: 5px;
     margin: 3%;
+    margin-left: 5vw;
 }
 
 .cirtifications{
     width: auto;
-    height: 200px;
+    height: 100px;
     border-radius: 5px;
     margin: 3%;
+}
+
+.footer{
+    background-color: #405D72;
+    color: white;
+    margin-top: 5%;
+    padding: 2%;
 }
