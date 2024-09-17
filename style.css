@@ -225,7 +225,6 @@ cursor: pointer;
 
 #navigation{
     width: 100%;
-    height: auto;
     margin-top: 1%;
     background-color: #405D72;
     display: none;
@@ -334,12 +333,23 @@ cursor: pointer;
 
 .cirtificationTitle{
     margin-top: 5%;
-}
-
-.cirtification{
-    
+    margin-left: 3vw;
 }
 
 .hobbyRelate{
     margin-top: 50px;
+}
+
+.cirtification{
+    width: 25%;
+    height: 25%;
+    border-radius: 5px;
+    margin: 3%;
+}
+
+.cirtifications{
+    width: auto;
+    height: 200px;
+    border-radius: 5px;
+    margin: 3%;
 }
