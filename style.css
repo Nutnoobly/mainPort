@@ -210,9 +210,21 @@ cursor: pointer;
 }
 
 .hobbyImm{
-    width: 30%;
-    height:30%;
+    width: 100%;
+    height:auto;
     border-radius: 5px;
+    margin: 3%;
+}
+
+.more-imm-container{
+    width: 30%;
+    height: 30%;
+    margin: 3%;
+}
+
+.more-im-container{
+    height: auto;
+    width: 94vw;
     margin: 3%;
 }
 
@@ -232,7 +244,7 @@ cursor: pointer;
 }
 
 .myNav{
-    margin-left: 20%;
+    margin-left: 15%;
     font-size: 200%;
     color: white;
 }
@@ -338,6 +350,7 @@ cursor: pointer;
 
 .hobbyRelate{
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .cirtification{
@@ -360,4 +373,9 @@ cursor: pointer;
     color: white;
     margin-top: 5%;
     padding: 2%;
+}
+
+.img-with-text {
+    text-align: center;
+    justify-content: center;
 }
