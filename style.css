@@ -124,7 +124,7 @@ cursor: pointer;
     /* The image used */
     background-image: url("src/1722267989835.jpg");
     /* Set a specific height */
-    min-height: 500px;
+    min-height: 800px;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -132,11 +132,51 @@ cursor: pointer;
     background-size: cover;
     opacity: 50%;
 }
+.parallax2 {
+    /* The image used */
+    background-image: url("./src/IMG_20240909_111414.jpg");
+    /* Set a specific height */
+    min-height: 800px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 50%;
+    margin-top: 150px;
+}
+.parallaxmath {
+    /* The image used */
+    background-image: url("/mainPort/src/math.jpg");
+    /* Set a specific height */
+    min-height: 800px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 50%;
+    margin-bottom: 30px;
+}
+
+.parallaxsim {
+    /* The image used */
+    background-image: url("/mainPort/src/simracing.jpg");
+    /* Set a specific height */
+    min-height: 800px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 50%;
+    margin-bottom: 30px;
+}
 
 .about-me{
     margin-top: 200px;
     color: white;
-    margin-bottom: 5%;
+    margin-bottom: 30px;
 }
 
 #open_nav {
@@ -197,8 +237,8 @@ cursor: pointer;
 }
 
 .myPicture{
-    width: 300%;
-    height: 300%;
+    width: 450px;
+    height: 450px;
     border: solid white 3px;
     margin-left: 10%;
     border-radius:  50%;
@@ -371,7 +411,6 @@ cursor: pointer;
 .footer{
     background-color: #405D72;
     color: white;
-    margin-top: 5%;
     padding: 2%;
 }
 
