@@ -4,66 +4,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <title>simracing</title>
+    <link href="/mainPort/style.css" rel="stylesheet">
 </head>
 <style>
-.button-56 {
-    align-items: center;
-    background-color: #fee6e3;
-    border: 2px solid #111;
-    border-radius: 8px;
-    box-sizing: border-box;
-    color: #111;
-    cursor: pointer;
-    display: flex;
-    font-family: Inter,sans-serif;
-    font-size: 16px;
-    height: 48px;
-    justify-content: center;
-    line-height: 24px;
-    max-width: 100%;
-    padding: 0 25px;
-    position: relative;
-    text-align: center;
-    text-decoration: none;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-}
-
-.button-56:after {
-    background-color: #111;
-    border-radius: 8px;
-    content: "";
-    display: block;
-    height: 48px;
-    left: 0;
-    width: 100%;
-    position: absolute;
-    top: -2px;
-    transform: translate(8px, 8px);
-    transition: transform .2s ease-out;
-    z-index: -1;
-}
-
-.button-56:hover:after {
-    transform: translate(0, 0);
-}
-
-.button-56:active {
-    background-color: #ffdeda;
-    outline: 0;
-}
-
-.button-56:hover {
-    outline: 0;
-}
-
-@media (min-width: 768px) {
-    .button-56 {
-    padding: 0 40px;
-    }
-}
-
 h1{
     color: white   ;
 }
@@ -74,9 +17,15 @@ p{
 }
 </style>
 <body style="background: #001933;">
+    <div class="navbar-header head d-flex justify-content-between">
+        <a href="/mainPort/index.html">
+            <p class="text-lg-left  portfolio">
+                <Strong>Port</Strong>folio &nbsp;&nbsp; <small><small><small><small><small><<< HOME</small></small></small></small></small>
+            </p>
+        </a>
+    </div>
     <div class="container">
-        <a href="javascript:history.back()"><button class="button-56" role="button" style="margin-top: 30px;">Home</button></a>
-        <img src="/src/1707053887403.jpg" alt="my math image" style="margin-top: 30px; margin-bottom: 30px;" class="img-fluid">
+        <img src="/mainPort/src/math.jpg" alt="my math image" style="margin-top: 30px; margin-bottom: 30px;" class="img-fluid">
         <h1>Math Project</h1>
         <p>
             &nbsp;&nbsp;&nbsp;&nbsp;
@@ -86,6 +35,23 @@ p{
             &nbsp;&nbsp;&nbsp;&nbsp;
             In the end, our hard work paid off. We were awarded silver medals and placed 4th in the district, an achievement we were incredibly proud of. Although we didn’t have the chance to advance further, I view this experience as a significant success. The project not only allowed me to sharpen my mathematical and creative skills but also taught me the importance of perseverance and teamwork in the face of challenges. I left the competition with a deep sense of pride, knowing that we had created something meaningful and learned so much along the way. This project has been a valuable learning experience, and it continues to inspire me in my academic and personal endeavors.
         </p>
+    </div>
+    <div class="card-footer footer">
+        <h1 class="card-header text-center Contact">Contact</h1>
+        <div class="card-body carddc">
+            <div class="card-text">
+                <p class="text-center">Email: sattaya.tinnapat@gmail.com</p>
+            </div>
+            <div class="card-text">
+                <p class="text-center">Facebook: Tinnapat Sattaya</p>
+            </div>
+            <div class="card-text">
+                <p class="text-center">Instragram: tnnam_tn</p>
+            </div>
+            <div class="card-text">
+                <p class="text-center">Phone: 062-295-6358</p>
+            </div>
+        </div>
     </div>
 </body>
 </html>

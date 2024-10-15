@@ -239,12 +239,12 @@ cursor: pointer;
     width: 100%;
     margin-top: 1%;
     background-color: #405D72;
-    display: none;
+    display: block;
     border-radius: 5px;
 }
 
 .myNav{
-    margin-left: 15%;
+    margin-left: 14%;
     font-size: 200%;
     color: white;
 }
@@ -378,4 +378,12 @@ cursor: pointer;
 .img-with-text {
     text-align: center;
     justify-content: center;
+}
+
+.Contact{
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
 }
